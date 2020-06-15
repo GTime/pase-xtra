@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-transform: uppercase;
 }
 
 /* App Bar Links */
@@ -58,9 +59,12 @@
   bottom: -0.5rem;
 }
 
-.appbar__toggle:hover span::before {
+/* .appbar__toggle:hover span::before {
   top: 0;
 }
+.appbar__toggle:hover span::after {
+  bottom: 0;
+} */
 
 /* App Bar Links */
 .appbar__link {
@@ -73,7 +77,20 @@
   font-weight: 700;
 }
 
+/* RIGHT */
 .right {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+}
+
+.donate-button {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.search {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
 }
