@@ -1,0 +1,42 @@
+:root {
+  /* COLORS */
+  --color-primary: #050505;
+  --color-secondary: #ffffff;
+
+  /* Ex */
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  transition: 0.5s ease-in-out;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 1.6rem;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+a,
+a[href=""] {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
