@@ -1,0 +1,43 @@
+/* FADE IN */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out 0.2s both;
+}
+
+/* ZOOM IN */
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+.zoom-in {
+  opacity: 0;
+  animation: zoomIn 1s ease-in-out 0.2s both;
+}
+
+/* DELAY */
+.anime-delay-1 {
+  animation-delay: 0.5s;
+}
+.anime-delay-2 {
+  animation-delay: 1s;
+}
+
+.anime-delay-3 {
+  animation-delay: 1.5s;
+}
